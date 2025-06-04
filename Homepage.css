@@ -1,0 +1,63 @@
+body {
+    font-family: inter Display;
+    background-image: url(Dust%20Reid%20&%20Massima%20Bell%20by%20Gabriel%20Petra%20Option%201.jpg.jpg.webp); 
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    width: 300px;
+    margin: 2rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card .dates {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.info {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.ticker {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-top: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}

@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'crozetregular';
+    src: url('crozet-regular-webfont.woff2') format('woff2'),
+         url('crozet-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.questions{
+    color: grey;
+  margin-right: 80px;
+}
+
+.answers{
+    color: black;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.content{
+  margin-left: 0px;
+  margin-right: 180px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 14pt;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  color: black;
+}
+
+.container {
+  display: grid;
+  padding-top: 0pt;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto;
+  min-height: 100vh;
+}
+
+.left {
+  background: url(hintergrund.jpg) repeat;
+  background-size: unset;
+}
+
+.right {
+  background-color: white;
+  padding: 50px;
+  padding-top: 10pt;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10pt;
+}
+
+.header {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-family: Crozet;
+  font-size: 80px;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  line-height: 1;
+
+}
+
+.header h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+.nav {
+  position: sticky;
+  top: 0pt;
+  display: flex;
+  gap: 2px;
+  margin: 10px 0;
+  margin-top: 0px;
+  flex-wrap: wrap;
+  backdrop-filter: blur (50px);
+   background-color: rgba(255, 255, 255, 0.93);
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.nav a {
+  position: sticky;
+  top: 20pt;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center; translateY(30px);
+  line-height: 46px;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  
+}
+
+.nav a.active {
+    position: sticky;
+  background-color: black;
+  color: white;
+}
+
+.content {
+  overflow-y: auto;
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+.footer {
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  position: sticky;
+  bottom: 0px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+ 
+}
+
+.footer-nav {
+  margin-top: 0.5rem;
+}
+
